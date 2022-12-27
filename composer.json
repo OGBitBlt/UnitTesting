@@ -1,0 +1,22 @@
+{
+    "name": "ogbitblt/unit-testing",
+    "description": "Lightweight minimal unit testing framework for PHP based projects.",
+    "type": "library",
+    "require": {
+        "php": "^8.2.0",
+        "ogbitblt/output": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OGBitBlt\\UnitTesting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anthony Davis",
+            "email": "ogbitblt@pm.me"
+        }
+    ],
+    "minimum-stability": "stable"
+}
